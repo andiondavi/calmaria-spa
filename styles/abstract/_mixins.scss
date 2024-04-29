@@ -1,0 +1,10 @@
+@mixin margem-central($width) {
+    width: $width;
+    margin: 0 auto;
+}
+
+@mixin ff-fs-color($f-family, $f-size, $f-color) {
+    font-family: $f-family;
+    font-size: $f-size;
+    color: $f-color;
+}
